@@ -10,4 +10,4 @@
 
 # 官方网站（备份）
 
-[backup](./_backup.md)
+[backup](./backup.md)
