@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Note</title>
+</head>
+<body>
+    <h1>Note</h1>
+    <dl>
+        <dt>OS</dt>
+        <ul>
+            <a href="#_stack"><li>stack</li></a>
+            <li>heap</li>
+        </ul>
+        <dt>Web</dt>
+        <dt>C/C++</dt>
+        <dt>Python</dt>
+        <dt>Java</dt>
+        <ul>
+            <a href="#_jdk_jre"><li>JDK & JRE</li></a>
+        </ul>
+    </dl>
+
+    <div id="_stack">
+        <p>
+            <b>stack</b> 是存在於某作用域(scope) 的一塊內存空間(memory space)。 <br> 例如當你調用函數，函數本身即會形成一個stack 用來放置它所接收的參數，以及返回地址。 <br> 在函數本體(function body) 內聲明的任何變量，其所使用的內存塊都取自上述stack。
+        </p>
+    </div>
+
+    <div id="_jdk_jre">
+        <p>
+            <b>关于JDK和JRE</b>
+            <ul>
+                <li>JDK：Java Development Kit</li>
+                <li>JRE：Java Runtime Environment</li>
+            </ul>
+            简单地说，JRE就是运行Java字节码的虚拟机。但是，如果只有Java源码，要编译成Java字节码，就需要JDK，因为JDK除了包含JRE，还提供了编译器、调试器等开发工具。
+        </p>
+    </div>
+</body>
+</html>

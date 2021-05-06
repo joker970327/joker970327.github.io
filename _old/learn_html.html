@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="refresh" content="3">  -->
+    <!-- 自动刷新  -->
+    <meta name="author" content="joker">
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <title>learn_html</title>
+<!--     <style type="text/css">
+      body {background-color: yellow}
+      p {color: blue}
+    </style> -->
+  </head>
+  <body>
+    <h1>learn_html</h1>
+    <hr>
+    <!-- 这是一个注释 -->
+    <a href="learn_html.html">html 学习</a> <br>
+    <a href="use_div.html">网页布局</a> <br>
+    <a href="use_script.html">关于脚本</a> <br>
+    <p style="color: blue; margin-left: 20px">This is joker.</p>
+    
+    <h2 style="background-color: red">h2 header</h2>
+    <p style="font-family: arial;color: red;font-size: 20px">html+css+javascript+php</p>
+    
+    <p style="background-color: green">浏览器会自动地在段落的前后添加空行</p>
+    <p style="text-align: center;"> <b>粗体</b> - <i>斜体</i></p>
+    
+    <code>import numpy as np</code> <br>
+    <code>int main()</code>
+    <br>
+    <a href="http://www.google.com/" id="tips">tips!</a>
+    
+    <h3> h3 header</h3>
+    <a href="joker.jpg">图片链接</a>
+    <a href="http://www.baidu.com">百度链接</a> <br>
+    <a href=""><img src="joker.jpg" alt="error"></a>
+    <img src="joker.jpg" width="200" height="200" alt="error">
+    <br>
+    <a href="https://www.runoob.com/" target="_blank">访问菜鸟教程</a>
+    <br>
+    <p>注意：请始终将正斜杠添加到子文件夹。假如这样书写链接：href="https://www.runoob.com/html"，就会向服务器产生两次 HTTP 请求。这是因为服务器会添加正斜杠到这个地址，然后创建一个新的请求，就像这样：href="https://www.runoob.com/html/"。</p>
+    <br><br>
+    <table border="1">
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>(1,1)</td>
+        <td>(1,2)</td>
+      </tr>
+      <tr>
+        <td>(2,1)</td>
+        <td>(2,2)</td>
+      </tr>
+    </table>
+
+    <a href="#tips">goto tips</a>
+
+    <ul>
+      <li>Coffe</li>
+      <li>Milk</li>
+    </ul>
+
+    <ol>
+      <li>Milk</li>
+      <li>Water</li>
+    </ol>
+
+    <dl>
+      <dt>Coffe</dt>
+      <dd>- black hot drink</dd>
+      <dd>- or white hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+
+    <form>
+      name: <input type="text" name="name"><br>
+      age: <input type="text" name="age"> <br>
+      Password: <input type="password" name="pwd">
+    </form>
+    <br>
+    <form>
+      <input type="checkbox" name="a">abc <br>
+      <input type="checkbox" name="1">123 <br>
+    </form>
+    <form>
+      <input type="radio" name="1" value="abc">abc <br>
+      <input type="radio" name="1" value="123">123 <br> 
+    </form>
+    <br>
+    <form name="input" action="html_action.php" method="get">
+      Name: <input type="text" name="name">
+      <input type="submit" value="SUBMIT IT!">
+    </form>
+
+    <iframe src="use_div.html"></iframe> <br>
+    <iframe src="use_div.html" width="200" height="200"></iframe>
+    <iframe src="use_div.html" width="200" height="200" frameborder="0"></iframe>
+    <br><br>
+    <div style="background-color: red">
+    <iframe src="use_div.html" name="iframe_a"></iframe>
+  <p><a href="http://www.runoob.com" target="iframe_a">RUNOOB.COM</a></p>
+
+  <p><b>注意：</b> 因为 a 标签的 target 属性是名为 iframe_a 的 iframe 框架，所以在点击链接时页面会显示在 iframe框架中。</p>
+  </div>
+  </body>
+</html> 
